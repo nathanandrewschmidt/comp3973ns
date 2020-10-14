@@ -10,7 +10,6 @@ using Microsoft.AspNetCore.Authorization;
 
 namespace AspDb.Controllers
 {
-    [Authorize]
     public class CategoriesController : Controller
     {
         private readonly NorthwindContext _context;
